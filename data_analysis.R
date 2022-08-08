@@ -22,7 +22,8 @@ Seville_subset <- Seville_subset[1:35000,]
 cities_df <- data.frame (
 
   # Valencia
-  dt_iso_Valencia = Valencia_subset$dt_iso,
+  # dt_iso_Valencia = Valencia_subset$dt_iso,
+  time = Valencia_subset$dt_iso,
   temp_Valencia = Valencia_subset$temp,
   temp_min_Valencia = Valencia_subset$temp_min,
   temp_max_Valencia = Valencia_subset$temp_max,
@@ -40,7 +41,7 @@ cities_df <- data.frame (
   weather_icon_Valencia = Valencia_subset$weather_icon,
 
   # Madrid
-  dt_iso_Madrid = Madrid_subset$dt_iso,
+  # dt_iso_Madrid = Madrid_subset$dt_iso,
   temp_Madrid = Madrid_subset$temp,
   temp_min_Madrid = Madrid_subset$temp_min,
   temp_max_Madrid = Madrid_subset$temp_max,
@@ -58,7 +59,7 @@ cities_df <- data.frame (
   weather_icon_Madrid = Madrid_subset$weather_icon,
 
   # Bilbao
-  dt_iso_Bilbao = Bilbao_subset$dt_iso,
+  # dt_iso_Bilbao = Bilbao_subset$dt_iso,
   temp_Bilbao = Bilbao_subset$temp,
   temp_min_Bilbao = Bilbao_subset$temp_min,
   temp_max_Bilbao = Bilbao_subset$temp_max,
@@ -76,8 +77,7 @@ cities_df <- data.frame (
   weather_icon_Bilbao = Bilbao_subset$weather_icon,
 
   # Barcelona
-  dt_iso_Barcelona = Barcelona_subset$dt_iso,
-  dt_iso_Barcelona = Barcelona_subset$dt_iso,
+  # dt_iso_Barcelona = Barcelona_subset$dt_iso,
   temp_Barcelona = Barcelona_subset$temp,
   temp_min_Barcelona = Barcelona_subset$temp_min,
   temp_max_Barcelona = Barcelona_subset$temp_max,
@@ -95,9 +95,7 @@ cities_df <- data.frame (
   weather_icon_Barcelona = Barcelona_subset$weather_icon,
 
   # Seville
-  dt_iso_Seville = Seville_subset$dt_iso,
-  dt_iso_Seville = Seville_subset$dt_iso,
-  dt_iso_Seville = Seville_subset$dt_iso,
+  # dt_iso_Seville = Seville_subset$dt_iso
   temp_Seville = Seville_subset$temp,
   temp_min_Seville = Seville_subset$temp_min,
   temp_max_Seville = Seville_subset$temp_max,
